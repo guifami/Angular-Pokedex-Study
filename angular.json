@@ -124,6 +124,12 @@
               "devServerTarget": "pokedex:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/Angular-Pokedex-Study/"
+          }
         }
       }
     }
